@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    background-color: rgb(7, 7, 41);
+}
+
+
+.banner-column{
+    background-color: blueviolet ;
+    border-style:groove;
+}
+.navbar-container{
+    top: 0;
+    background-color: black;
+    position: sticky;
+    z-index: 2;
+}
+.about-container{
+    background-color: #0E2B57;
+}
+.education-container{
+    background-color: rgb(12, 1, 22);
+}
+.bg-white{
+    background-color: aliceblue;
+}
+.white{
+    color: aliceblue;
+}
+.circle{
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.project-container{
+    background-color: #0E2B57;
+}
+.portfolio-container{
+    background-color: #570cd1;
+}
+.contact-container{
+    background-color: black
+    
+}
+.inner-form{
+    background-color: rgb(20, 17, 17)
+};
+.bg-red{
+    background-color: rgb(185, 10, 10);
+}
+.bg-red:hover{
+    color: black!important;
+}
+
+.footer{
+    background:var(--black);
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+
